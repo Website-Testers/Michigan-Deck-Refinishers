@@ -4,7 +4,12 @@
         width: 80%;
     }
     
-    nav, section {
+    nav {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    section {
         margin-left: 15px;
         margin-right: 15px;
     }
