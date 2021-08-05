@@ -1,0 +1,39 @@
+@media only screen and (max-width: 720px) {
+
+    body {
+    }
+
+    .ham {
+        background-color: black;
+        width: 100px;
+        height: 15px;
+        margin-bottom: 25px;
+        display: block;
+    }
+
+    .ham-1 {
+        margin-top: 50px;
+        
+    }
+    .heading1 {
+        font-size: 30px;
+    }
+
+    .image-section {
+        width: 100%;
+    }
+
+   .image {
+        width: 690px;
+        height: 500px;
+        display: block;
+
+   }
+
+   .margin-sect {
+        padding-right: 15px;
+        padding-left: 15px;
+   }
+}
+
+
