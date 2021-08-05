@@ -15,7 +15,8 @@
     }
 
     .menu {
-        float: right;
+        position: absolute;
+        left:-500px;
     }
     
     .ham {
