@@ -1,6 +1,12 @@
 @media only screen and (max-width: 720px) {
 
     body {
+        width: 80%;
+    }
+    
+    nav, section {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .ham {
