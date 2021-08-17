@@ -4,12 +4,107 @@ body {
     border: 0px;
 }
 
+nav {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 200px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+}
+
 .ham {
     background-color: black;
     width: 100px;
     height: 15px;
+    margin-bottom: 25px;
+    display: block;
 }
 
 .heading1 {
+    color:#0C0B0A;
     font-size: 50px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    left: 28%;
+    
+    
 }
+
+.btn {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.image-section {
+    width: 100%;
+    height: 420px;
+}
+
+.image {
+    width: 100%;
+    opacity: .3;
+    height: 100%;
+}
+
+.menu {
+    position: relative;
+    top: 50px;
+}
+
+.sect-1 {
+    
+    height: 420px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.heading-2 {
+    height: 300px;
+}
+
+ .menu-cont {
+     top: 10px;
+     float: right;
+ }
+
+ section {
+     position: relative;
+     text-align: center;
+ }
+
+ .margin-sect {
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 420px;
+     background-color: black;
+ }
+
+ .gradient-layer {
+     position: relative;
+     height: 420px;
+     width: 100%;
+ }
+
+ .center-elem {
+     position: absolute;
+     width: 100%;
+     top: 270px;
+ }
+
+ .shadow {
+    font-size: 50px;
+    color: #666359;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 28px;
+    left: 426px;
+ }
