@@ -1,3 +1,9 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -30,7 +36,7 @@ h1, h2, h3, h4, h5 {
     z-index: 1;
     bottom: 30px;
     left: 28%;
-    
+    font-family: "Roboto";
     
 }
 
@@ -66,13 +72,14 @@ h1, h2, h3, h4, h5 {
     margin-right: 15px;
 }
 
-.heading-2 {
+.heading2 {
     height: 300px;
 }
 
  .menu-cont {
      top: 10px;
      float: right;
+     display: none;
  }
 
  section {
@@ -106,5 +113,11 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     z-index: 1;
     bottom: 28px;
-    left: 426px;
+    left: 28.15%;
+    font-family: "Roboto";
+ }
+
+
+ .form-container {
+     text-align: center;
  }
