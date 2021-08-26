@@ -18,7 +18,7 @@ function showSlides()
           slideIndex = -1;
       }
       slides[++slideIndex].style.display="block";
-      setTimeout(showSlides, 2000);
+      setTimeout(showSlides, 3000);
   }
   /*
   var dots = document.getElementsByClassName("dot");

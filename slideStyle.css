@@ -46,34 +46,17 @@
   
   /* Caption Info */
   .Info {
-    color: #e3e3e3;
-    font-size: 16px;
+    color: #ebebeb;
+    font-size: 100px;
     padding: 10px 14px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30%;
+    left: -2%;
     width: 100%;
     text-align: center;
-  }
-  
-  /* Worknumbering (1/3 etc) */
-  .MessageInfo {
-    color: #f2f2f3;
-    font-size: 14px;
-    padding: 10px 14px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The circles or bullets and indicators */
-  .dots {
-    cursor: pointer;
-    height: 16px;
-    width: 16px;
-    margin: 0 3px;
-    background-color: rgb(82, 37, 0);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.5s ease;
+    font-family: Roboto;
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(19, 19, 19);
   }
   
   .enable, .dots:hover {
@@ -99,6 +82,6 @@
   }
 
   .img-width {
-      height: 450px;
+      height: 300px;
       width: 100%;
   }
