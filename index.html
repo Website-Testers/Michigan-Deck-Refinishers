@@ -7,6 +7,7 @@
         <link href=".\stylesheet.css" rel="stylesheet" type="text/css" ></link>
         <link href=".\720x1280.css" rel="stylesheet" type="text/css" ></link>
         <link href=".\slideStyle.css" rel="stylesheet" type="text/css"></link>
+        <link href=".\email_style.css" rel="stylesheet" type="text/css"></link>
         <script src=".\slideJS.js"></script>
         <title>"Michigan Deck Refinishing LLC"</title>
     </head>
@@ -55,27 +56,28 @@
         </section>
 
         <section class="image-section">
-            <div class="margin-sect">
-                <div>
-                    <div></div>
-                    <h3>Renewal</h3>
-                    <p>At Michigan Deck, renewing your deck we pressure wash the surface, and use premium stains to bring your deck back to life.</p>
+            <div class="item-sect1">
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3 class="item-h3">Renewal</h3>
+                    <p class="item-p">At Michigan Deck, renewing your deck we pressure wash the surface, and use premium stains to bring your deck back to life.</p>
                 </div>
-                <div>
-                    <div></div>
-                    <h3>Repairing</h3>
-                    <p>Repairing rotten step and deck boards can be done as well as installing new railing, gate.</p>
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3 class="item-h3">Repairing</h3>
+                    <p class="item-p">Repairing rotten step and deck boards can be done as well as installing new railing, gate.</p>
                 </div>
-                <div>
-                    <div></div>
-                    <h3>Replacing</h3>
-                    <p>For those decks that are far to gone to be renewed or repaired, replacing the deck can be done.</p>
+            </div>
+            <div class="item-sect2">
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3 class="item-h3">Replacing</h3>
+                    <p class="item-p">For those decks that are far to gone to be renewed or repaired, replacing the deck can be done.</p>
                 </div>
-                <div>
-
-                </div>
-                <div>
-
+                <div class="item">
+                    <div class="icon"></div>
+                    <h3 class="item-h3">New Construction</h3>
+                    <p class="item-p">If you are looking to get a new deck built, we can build it.</p>
                 </div>
             </div>
         </section>
@@ -86,23 +88,23 @@
                 onsubmit="return validateContactForm()">
     
                 <div class="input-row">
-                    <label style="padding-top: 20px;">Name</label> <span
+                    <label style="padding-top: 20px;" class="form-font-size">Name</label> <span
                         id="userName-info" class="info"></span><br /> <input
                         type="text" class="input-field" name="userName"
                         id="userName" />
                 </div>
                 <div class="input-row">
-                    <label>Email</label> <span id="userEmail-info"
+                    <label class="form-font-size">Email</label> <span id="userEmail-info"
                         class="info"></span><br /> <input type="text"
                         class="input-field" name="userEmail" id="userEmail" />
                 </div>
                 <div class="input-row">
-                    <label>Subject</label> <span id="subject-info"
+                    <label class="form-font-size">Subject</label> <span id="subject-info"
                         class="info"></span><br /> <input type="text"
                         class="input-field" name="subject" id="subject" />
                 </div>
                 <div class="input-row">
-                    <label>Message</label> <span id="userMessage-info"
+                    <label class="form-font-size">Message</label> <span id="userMessage-info"
                         class="info"></span><br />
                     <textarea name="content" id="content"
                         class="input-field" cols="60" rows="6"></textarea>
@@ -123,6 +125,7 @@
                 </div>
             </form>
         </div>
+        <!-- Beginning of Javascript for Email -->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"
         type="text/javascript"></script>
         <script type="text/javascript">
@@ -166,7 +169,7 @@
                 return valid;
             }
         </script>
-
+        <!--End of Email Javascript-->
         <footer>
             <section>
                 <div class="social-cont">

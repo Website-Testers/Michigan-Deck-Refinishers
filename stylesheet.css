@@ -51,12 +51,8 @@ h1, h2, h3, h4, h5 {
 
 .image-section {
     width: 100%;
-    height: 420px;
-}
-
-.image {
-    width: 100%;
-    height: 100%;
+    margin-bottom: 100px;
+    margin-left: 20%;
 }
 
 .menu {
@@ -86,10 +82,16 @@ h1, h2, h3, h4, h5 {
      text-align: center;
  }
 
- .margin-sect {
-     margin-left: 15px;
-     margin-right: 15px;
-     height: 420px;
+ .item-sect1 {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    width: 500px;    
+}
+
+ .item-sect2 {
+     display: flex;
+     width: 500px;
  }
 
  .gradient-layer {
@@ -118,4 +120,27 @@ h1, h2, h3, h4, h5 {
 
  .form-container {
      text-align: center;
+ }
+
+ .item {
+    text-align: left;
+    position: relative;
+    width: 250px;
+ }
+
+ .item-p {
+    font-family: Roboto;
+    font-size: 30px;
+    width: 90%;
+ }
+
+ .icon {
+
+ }
+
+ .item-h3 {
+    font-family: Roboto;
+    font-size: 30px;
+    margin-right: 5px;
+    position: relative;
  }
